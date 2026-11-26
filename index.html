@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body { background-color: #08080f; color: #00E5FF; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; flex-direction: column; }
+        .loader { border: 4px solid rgba(0, 229, 255, 0.2); border-top: 4px solid #00E5FF; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 20px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <div>Đang kết nối...</div>
+    <script>
+        setTimeout(function() {
+            // THAY LINK DƯỚI ĐÂY BẰNG URL TRANG GAME THỰC TẾ
+            window.location.href = "https://turbolite.pages.dev/mod/version/v9"; 
+        }, 1000);
+    </script>
+</body>
+</html>
